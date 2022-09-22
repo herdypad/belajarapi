@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/hallo")
+    public String hallo (){
+        return "Hallo";
+    }
+    @GetMapping("/test")
     public String test (){
         return "Hallo";
     }
