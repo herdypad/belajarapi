@@ -3,7 +3,7 @@
 Update Server
 ~# sudo apt-get update && apt-get upgrade
 
-\
+
 
 Install JRE
 ~#sudo apt-get install default-jre
