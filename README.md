@@ -1,27 +1,27 @@
 
 
-Update Server
+# Update Server
 > sudo apt-get update && apt-get upgrade
 
 
 
-Install JRE
+# Install JRE
 > sudo apt-get install default-jre
 
 
 
-Install JDK
+# Install JDK
 > sudo apt-get install default-jdk
 
 
 
-Cek Versi Java
+# Cek Versi Java
 > java -version
 > javac -version
 
 
 
-install postgres
+# install postgres
 >  sudo apt-get update $ sudo apt-get install postgresql postgresql-contrib $ sudo -i -u postgres
 
 
@@ -40,12 +40,12 @@ install postgres
 
 
 
-untuk build jar
+# untuk build jar
 > mvn clean package
-atau
+` atau
 > mvn clean install
 
-untuk liat server berjalan
+# untuk liat server berjalan
 > sudo netstat -tlnp
-untuk stop
+` untuk stop
 > sudo kill -9 <id dari PID>
