@@ -4,14 +4,14 @@ Update Server
 ~# sudo apt-get update && apt-get upgrade
 
 Install JRE
-~# sudo apt-get install default-jre
+~#sudo apt-get install default-jre
 
 Install JDK
 
-~# sudo apt-get install default-jdk
+~#sudo apt-get install default-jdk
 
     Cek Versi Java
-# java -version# javac -version
+#java -version# javac -version
 
 
 install postgres
