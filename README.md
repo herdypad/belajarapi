@@ -16,7 +16,8 @@ Install JDK
 
 
 Cek Versi Java
-> java -version# javac -version
+> java -version
+> javac -version
 
 
 
