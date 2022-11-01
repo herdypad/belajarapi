@@ -1,29 +1,20 @@
 
 
-    Update Server
-
-Pertama-pertama, yang perlu Anda lakukan adalah memperbarui repository pada Ubuntu dengan menggunakan perintah berikut:
-
+Update Server
 ~# sudo apt-get update && apt-get upgrade
 
-    Install JRE
-
-Selanjutnya, install Java Runtime Environment (JRE). JRE adalah perangkat lunak yang digunakan untuk menjalankan program/aplikasi yang berbasis Java. Untuk install JRE pada Ubuntu, masukkan perintah berikut:
-
+Install JRE
 ~# sudo apt-get install default-jre
 
-    Install JDK
-
-Kemudian, install Java Development Kit (JDK). JDK adalah perangkat lunak yang digunakan untuk mengumpulkan kompilasi kode-kode Java yang dibuat oleh pengembang aplikasi lalu menerjemahkannya ke dalam bytecode untuk dijalankan oleh JRE. Masukkan perintah berikut untuk install JDK.
+Install JDK
 
 ~# sudo apt-get install default-jdk
 
     Cek Versi Java
-
-Terakhir, untuk memastikan instalasi Java berhasil, Anda bisa mengeceknya menggunakan perintah berikut.
-
 # java -version# javac -version
 
+
+install postgres
 $ sudo apt-get update $ sudo apt-get install postgresql postgresql-contrib $ sudo -i -u postgres
 
 postgres=# GRANT ALL ON SCHEMA test TO xxx; postgres=# GRANT ALL ON ALL TABLES IN SCHEMA test TO xxx; postgres=# \q
@@ -31,8 +22,10 @@ postgres=# GRANT ALL ON SCHEMA test TO xxx; postgres=# GRANT ALL ON ALL TABLES I
 postgres@server:-$ createdb user $ sudo -u postgres createdb user postgres=# \password Enter new password: Enter it again: postgres=#
 
 
-
+untuk build jar
 mvn clean package
+atau
+mvn clean install
 
 untuk liat server berjalan
 sudo netstat -tlnp
