@@ -1,1 +1,4 @@
 "# belajarapi" 
+
+
+mvn clean package
